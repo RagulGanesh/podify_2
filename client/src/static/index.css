@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Oswald:wght@300;400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #191919;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(152, 152, 152);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+i{
+    cursor:pointer
+}
+
+
+input{
+    outline: none;
+    box-shadow: none;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.desc-cont{
+    padding: 5rem;
+    /* background-color: #131516; */
+}
+
+.play-btn{
+    margin-top: 2rem;
+    width:fit-content;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color:#24292b;
+}
+
+.play-btn i{
+    margin: 15px 10px 15px 15px;
+    color: white;
+}
+
+.play-btn:hover{
+    background-color: white;
+}
+.play-btn i:hover{
+    color: #24292b;
+}
+
+.video-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24292b;
+}
+
+.video{
+    margin-top: 2rem;
+    width: 80vw;
+    height: 75vh;
+}
